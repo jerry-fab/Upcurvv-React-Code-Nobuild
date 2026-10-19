@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 560" fill="none">
+  <defs>
+    <linearGradient id="hoodie" x1="350" y1="210" x2="530" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6B95"/><stop offset="1" stop-color="#8C1D43"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFF5F8"/><stop offset="1" stop-color="#FFDFEB"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="365" cy="510" rx="270" ry="24" fill="#FFEBF1"/>
+  <!-- soft background -->
+  <circle cx="390" cy="270" r="205" fill="#FFF5F8"/>
+  <circle cx="520" cy="112" r="42" stroke="#FFDEEA" stroke-width="7"/>
+  <path d="M520 85v27l-19 17" stroke="#FFADC4" stroke-width="5" stroke-linecap="round"/>
+  <path d="M564 220h90M574 204h72M585 188h60" stroke="#FFDFEB" stroke-width="8" stroke-linecap="round"/>
+  <!-- plant -->
+  <path d="M596 452c-5-58-8-100-3-145M593 376c-30-16-39-37-35-59 23 5 40 26 35 59ZM595 415c29-22 43-44 40-66-27 10-42 31-40 66Z" fill="#80CBB8"/>
+  <path d="M580 453h44l-6 48h-32z" fill="#FFDEEA"/>
+  <!-- task card -->
+  <rect x="45" y="68" width="315" height="250" rx="22" fill="#fff" stroke="#FFD6E4" stroke-width="3"/>
+  <rect x="66" y="88" width="34" height="34" rx="10" fill="#FFF0F5"/>
+  <path d="M75 97h16v18H75zM79 94v6M87 94v6M75 103h16" stroke="#FF4D79" stroke-width="2" stroke-linecap="round"/>
+  <text x="112" y="110" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#2D1522">Today's Tasks</text>
+  <rect x="291" y="91" width="48" height="24" rx="12" fill="#FFF0F5"/>
+  <text x="303" y="107" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#FF4D79">1/4</text>
+  <path d="M67 136h270" stroke="#FFF0F5"/>
+  <circle cx="81" cy="160" r="10" fill="#FF4D79"/>
+  <path d="m76 160 4 4 7-8" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="102" y="165" font-family="Arial, sans-serif" font-size="13" fill="#405474">HTML Basics</text>
+  <circle cx="81" cy="198" r="10" stroke="#FFD0DF" stroke-width="2.5"/>
+  <text x="102" y="203" font-family="Arial, sans-serif" font-size="13" fill="#405474">CSS Box Model</text>
+  <circle cx="81" cy="236" r="10" stroke="#FFD0DF" stroke-width="2.5"/>
+  <text x="102" y="241" font-family="Arial, sans-serif" font-size="13" fill="#405474">JavaScript Loops</text>
+  <circle cx="81" cy="274" r="10" stroke="#FFD0DF" stroke-width="2.5"/>
+  <text x="102" y="279" font-family="Arial, sans-serif" font-size="13" fill="#405474">React Introduction</text>
+  <!-- desk -->
+  <path d="M270 355h365l-10 18H260z" fill="#6B1B38"/>
+  <path d="M290 373 274 488M611 373l17 115" stroke="#852246" stroke-width="8" stroke-linecap="round"/>
+  <!-- books -->
+  <rect x="244" y="319" width="108" height="17" rx="4" fill="#FF6584"/>
+  <rect x="252" y="339" width="100" height="17" rx="4" fill="#8A55EC"/>
+  <rect x="258" y="359" width="95" height="17" rx="4" fill="#851E47"/>
+  <text x="258" y="331" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#fff">HTML</text>
+  <text x="266" y="351" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#fff">CSS</text>
+  <text x="269" y="371" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#fff">JavaScript</text>
+  <!-- student body -->
+  <path d="M411 267c-28 8-47 29-52 67l-8 59h153l-11-83c-5-29-25-42-50-46z" fill="url(#hoodie)"/>
+  <path d="M407 279c11 20 33 23 49 0l-8-25h-34z" fill="#F3B49D"/>
+  <path d="M392 219c-2-37 17-61 48-59 29 2 43 27 36 57l-11 31c-8 19-28 27-45 13-17-13-26-25-28-42z" fill="#F7C5AD"/>
+  <path d="M388 218c-10-28-2-61 24-75 28-15 60-2 70 24 5 13 1 31-4 43l-9-24-9-19c-21 13-41 16-60 11l-4 39-8 10z" fill="#172E56"/>
+  <path d="M405 209c8-7 14-7 20-2M448 205c7-5 13-4 18 1" stroke="#17325D" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="418" cy="211" r="3" fill="#17325D"/><circle cx="456" cy="210" r="3" fill="#17325D"/>
+  <path d="M428 228c7 6 15 6 22 0" stroke="#D77F73" stroke-width="3" stroke-linecap="round"/>
+  <path d="M389 291c-20 12-33 37-29 65l19 42 24-10-8-43 26-36z" fill="#FF537E"/>
+  <path d="M468 291c27 8 39 29 42 57l-2 48h-27l-8-45-21-31z" fill="#FF537E"/>
+  <!-- arms and hands -->
+  <path d="M386 329c-12 14-8 29 6 34l70 7 12-15-66-19z" fill="#F5B99F"/>
+  <path d="M476 350c-9-10-20-9-27 0l-9 10 18 10 22-4z" fill="#F5B99F"/>
+  <!-- laptop -->
+  <path d="M373 270h132l21 84H388z" fill="url(#screen)" stroke="#FFAECA" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="438" cy="310" r="5" fill="#FFB9CE"/>
+  <path d="M380 355h160l-13 10H368z" fill="#FFAECA"/>
+  <!-- legs -->
+  <path d="M393 393h45l-14 65-54 35h-36l18-25 34-25z" fill="#3A1728"/>
+  <path d="M455 393h45l24 61-7 32h-32l-18-37z" fill="#541C34"/>
+  <path d="M331 481h43l-3 16c-15 9-41 11-55 2l4-10zM481 480h39l11 17c-14 9-42 9-57 0z" fill="#FFF7FA" stroke="#FFAECA" stroke-width="3"/>
+  <path d="M324 493h45M483 493h43" stroke="#FF4D79" stroke-width="4" stroke-linecap="round"/>
+  <!-- decorative code card -->
+  <rect x="548" y="252" width="90" height="76" rx="10" fill="#FFF2F6"/>
+  <path d="m567 277-9 8 9 8m17-16 9 8-9 8m17-17-7 18" stroke="#FFB2C8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M565 307h54M565 316h38" stroke="#FFD6E3" stroke-width="4" stroke-linecap="round"/>
+</svg>
