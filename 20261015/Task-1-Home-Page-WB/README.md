@@ -7,7 +7,7 @@
 ---
 
 ## 📌 Project Overview
-A modern, responsive, two-column hero section built using **React.js** and **modular CSS** following the Upcurvv React Sprint project requirements.
+A modern, responsive, two-column hero section built using **React.js** and **Tailwind CSS v4** following the Upcurvv React Sprint project requirements.
 
 ### ✨ Key Features
 - **Two-Column Layout**: Left column content with eyebrow badge, bold gradient headline, descriptive text, 4 feature badges, and interactive CTA buttons.
@@ -20,7 +20,7 @@ A modern, responsive, two-column hero section built using **React.js** and **mod
   - Decorative bottom caption with pulsing indicator
 - **Interactive Buttons**: Primary CTA button with smooth hover elevation (`transform: translateY(-2px)`) and glow shadow.
 - **Mobile First / Fully Responsive**: Seamless transition from two-column grid on desktop/laptop (1024px, 1440px) to balanced tablet (768px - 1023px) and stacked column layout on mobile devices (375px, 425px) without any horizontal scrolling.
-- **React Best Practices**: Clean functional component (`HeroSection.jsx`), strict JSX compliance (`className`, self-closing tags, descriptive alt text), and complete CSS separation (`HeroSection.css`).
+- **React Best Practices**: Clean functional component (`HeroSection.jsx`), strict JSX compliance (`className`, self-closing tags, descriptive alt text), and utility-first Tailwind CSS styling.
 
 ---
 
@@ -30,15 +30,14 @@ React-App/
 ├── public/
 ├── src/
 │   ├── assets/
-│   │   ├── hero-illustration.svg
-│   │   └── hero-image.png
+│   │   └── hero-illustration.svg
 │   ├── components/
-│   │   ├── HeroSection.jsx       # Component logic & JSX markup
-│   │   └── HeroSection.css       # Dedicated styles & position rules
+│   │   ├── HeroSection.jsx       # Component logic & Tailwind CSS classes
+│   │   └── HeroSection.css       # Tailwind CSS v4 & Inter font setup
 │   ├── App.jsx                   # Main component importing HeroSection
-│   ├── App.css
-│   ├── index.css                 # Base resets & typography (Inter font)
 │   └── main.jsx
+├── vite.config.js                # Vite config with @tailwindcss/vite
+├── .gitignore                    # Excludes node_modules, dist & logs
 ├── package.json
 └── README.md
 ```
@@ -70,8 +69,8 @@ npm run build
 1. **What is a React Component?**
    A self-contained, reusable block of UI and logic. `HeroSection.jsx` is a functional component returning clean JSX.
 
-2. **Why separate CSS into `HeroSection.css`?**
-   Separation of concerns keeps the JSX clean, improves maintainability, and prevents styling conflicts.
+2. **Why use Tailwind CSS instead of external CSS files?**
+   Utility-first Tailwind CSS accelerates development, eliminates CSS file bloat and naming conflicts, ensures responsive design via simple prefix breakpoints (`md:`, `lg:`), and guarantees that only active styles are bundled in production.
 
 3. **Why use CSS Position for the right visual column?**
    The parent container (`.hero-art`) uses `position: relative`, allowing floating elements (task card, notes, books, glow) to be positioned precisely with `position: absolute` and responsive coordinates without affecting document flow.
